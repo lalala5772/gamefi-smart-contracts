@@ -93,11 +93,3 @@ ERC-1155 기반의 게임 아이템 관리 컨트랙트임.
 ├── SnowmenToken.sol
 └── README.md
 ```
-
-## 참고 사항
-
-- OpenZeppelin Contracts를 활용하여 스마트 컨트랙트를 구현함.
-- `SnowmenGame`은 게임 아이템 관리, `SnowmenSales`는 아이템 판매 및 티켓 구매를 담당함.
-- `GameScoreToken`은 `SnowmenToken`과 별도로 정의된 점수 변환용 토큰 컨트랙트임.
-- 실제 배포 및 사용 시 컨트랙트 간 권한 설정, 토큰 승인, 메타데이터 CID 설정 등 필요한 초기 구성을 확인해야 함.
-- 본 README는 저장소에 포함된 Solidity 소스 코드를 기준으로 작성함.
