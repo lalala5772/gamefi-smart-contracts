@@ -1,6 +1,6 @@
 # Snowmen GameFi Smart Contracts
 
-Solidity 기반의 GameFi 스마트 컨트랙트 프로젝트임. ERC-20 토큰과 ERC-1155 기반 게임 아이템을 활용하여 토큰 발행, 아이템 관리 및 판매, 티켓 구매 기능 구현함.
+Solidity 기반의 GameFi 스마트 컨트랙트 프로젝트임. ERC-20 토큰과 ERC-1155 기반 게임 아이템을 활용하여 토큰 발행, 아이템 관리 및 판매, 티켓 구매 기능 구현.
 
 ## 주요 기능
 
@@ -82,14 +82,3 @@ ERC-1155 기반의 게임 아이템 관리 컨트랙트임.
 1. 사용자가 변환할 점수를 전달함.
 2. 설정된 변환 비율에 따라 발행할 토큰 수량을 계산함.
 3. 사용자 점수를 기록하고 해당 수량의 ERC-20 토큰을 발행함.
-
-## 프로젝트 구조
-
-```text
-.
-├── GameScoreToken.sol
-├── SnowmenGame.sol
-├── SnowmenSales.sol
-├── SnowmenToken.sol
-└── README.md
-```
